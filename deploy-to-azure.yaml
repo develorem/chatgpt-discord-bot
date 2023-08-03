@@ -18,9 +18,9 @@ jobs:
       with:
         dotnet-version: '6.x'  # Replace with the desired .NET Core version
 
-    - name: Change working directory to /src/
-      working-directory: ./src/
-      run: echo "Changed working directory to /src/"
+    - name: Change working directory to /src/Develorem.Discord.ChatGptBot/
+      working-directory: ./src/Develorem.Discord.ChatGptBot/
+      run: echo "Changed working directory to /src/Develorem.Discord.ChatGptBot/"
 
     - name: Restore dependencies
       run: dotnet restore
